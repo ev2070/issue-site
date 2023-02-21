@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body, html { /*body and html elements*/
+	height: 100%; 				/*elements will have full page height*/
+	margin: 0;	  				/*prevent brower from auto positioning both elements*/
+}
+
+
+#landing { /*landing background div*/
+	/*div will display a full page image*/
+	background-image: url("images/earth-bg.jpg"); 		/*background will be an image*/
+	height: 100%; 							   			/*div will have full page height*/
+	width: 100%;							   			/*div will have full page width*/
+	background-position: center;			   			/*centers background image*/
+	background-repeat: no-repeat; 			   			/*does not repeat background image*/
+	background-size: cover; 				   			/*scales background image to the smallest size possible that fills div*/
+}
+
+#landing-text {
+	padding-left: 50px;
+	font-family: 'Squada One', cursive;
+	color: white;
+	background-color: rgba(3,27,3,0.5);
+	height: 100%;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#stats-landing {
+	background-image: url(images/nasa-temps.jpg);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#stats-landing-text {
+	padding-left: 50px;
+	font-family: 'Squada One', cursive;
+	color: white;
+	background-color: rgba(3,27,3,0.5);
+	height: 100%;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#rec-landing {
+	background-image: url(images/planetary-health.png);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#rec-landing-text {
+	padding-left: 50px;
+	font-family: 'Squada One', cursive;
+	color: white;
+	background-color: rgba(3,27,3,0.5);
+	height: 100%;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#landing-h1 {
+	font-size: 170px;
+	margin-top: 40px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#landing-h2 {
+	font-size: 42px;
+}
+
+nav {
+	background-color: #E1FFFD;
+	position: fixed;
+	top: 0;
+	right: 0;
+	text-align: center;
+	mix-blend-mode: difference;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.nav-a {
+	font-family: Urbanist;
+	font-size: 22px;
+	color: gray;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.rec-a {
+	color: #072A04;
+}
+
+.footer-a {
+	text-decoration: none;
+}
+
+.nav-a:hover {
+	background-color: rgba(255, 255, 255, 0.10);
+	border-radius: 10px;
+	mix-blend-mode: difference;
+}
+
+.rec-a:hover {
+	color: white;
+}
+
+.green-section {
+	background-color: #688D04;
+	padding: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.black-section {
+	background-color: black;
+	padding-top: 54px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.white-text {
+	color: white;
+}
+
+.dark-green-text {
+	color: #072A04;
+}
+
+.dark-gray-text {
+	color: #5D737E;
+}
+
+.green-section ul {
+	color: #072A04;
+}
+
+.green-section h1 {
+	color: white;
+}
+
+.white-section {
+	padding: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+div.subsection img {
+	display: inline-block;
+	width: 49%;
+}
+
+.home-h1 {
+	font-family: Squada One;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 0;
+}
+
+.stats-h1 {
+	font-family: Squada One;
+	font-size: 86px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.rec-h1 {
+	font-family: Squada One;
+	font-size: 86px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.stats-h2 {
+	font-family: Urbanist;
+	font-size: 32px;
+}
+
+.home-p {
+	font-family: Urbanist;
+	font-size: 22px;
+	width: 60%;
+	margin: auto;
+}
+
+.stats-p {
+	font-family: Urbanist;
+	font-size: 22px;
+
+	width: 87.5%;
+
+	margin: auto;
+	margin-top: 26.56px;
+	margin-bottom: 26.56px;
+}
+
+.rec-p {
+	font-family: Urbanist;
+	font-size: 22px;
+	padding-right: 40px;
+}
+
+.large-p {
+	font-size: 64px;
+	text-align: center;
+	margin-bottom: 36px;
+}
+
+.p-space {
+	line-height: 32px;
+	text-align: center;
+}
+
+.gray-text {
+	color: #D0D9DD;
+}
+
+.highlight {
+	color: #D7DA1B;
+}
+
+.subsection {
+	width: 49%;
+	display: inline-block;
+}
+
+.sub-right {
+	padding-left: 15px;
+}
+
+/*https://stackoverflow.com/questions/9670469/css-vertical-alignment-of-inline-inline-block-elements*/
+div.section-full-content > * {
+    vertical-align: middle;  /* Align children to middle of line */
+}
+
+ul.home-p {
+	width: 80%;
+}
+
+li.highlight {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+li.highlight::marker {
+	content: "ⴲ  ";
+	color: #D7DA1B;
+}
+
+.section-full-content {
+	width: 80%;
+/*	padding: auto;*/
+	margin: auto;
+}
+
+footer {
+	background-color: #E1FFFD;
+	color: gray;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	text-align: center;
+	font-family: Urbanist;
+	font-size: 24px;
+}
+
+.highlight-a {
+	color: hotpink;
+}
+
+div.three-stats > * {
+    vertical-align: top;  /* Align children to top of line */
+}
+
+.three-stats {
+	margin: auto;
+	width: 80%;
+}
+
+.stat {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+
+.three-images img {
+	display: inline-block;
+	width: 32%;
+}
+
+.one-image {
+	display: inline-block;
+}
+
+.for-exponent {
+/*	margin-top: -30;*/
+	margin-bottom: 8px;
+}
+
+.for-approx-stat {
+	margin-bottom: 21px;
+}
+
+.for-approx-des {
+	margin-top: 23px;
+}
+
+#transparent {
+	background-color: #131116;
+}
+
+.list-space {
+	margin-bottom: 30px;
+}
